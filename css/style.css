@@ -19,3 +19,47 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+.col-dx {
+    float: right;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* header */
+/* Header - top-bar */
+.top-bar {
+    height: 70px;
+    line-height: 70px;
+}
+
+.top-bar ul, .top-bar ul li {
+    display: inline-block;
+}
+
+#logo {
+    vertical-align: middle;
+}
