@@ -1,5 +1,21 @@
+/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Utility */
+.large-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.small-container {
+    max-width: 1000px;
+    margin: 0 auto;
 }
