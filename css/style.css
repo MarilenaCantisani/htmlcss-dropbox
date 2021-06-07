@@ -39,6 +39,12 @@ ul li {
 
 li a {
     text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    text-decoration: underline;
 }
 
 .w-50 {
@@ -49,17 +55,36 @@ li a {
     text-align: right;
 }
 
+.btn.btn-blue {
+    background-color: #0061ff;
+}
+
+
 /* header */
 /* Header - top-bar */
 .top-bar {
     height: 70px;
-    line-height: 70px;
 }
 
 .top-bar ul, .top-bar ul li {
     display: inline-block;
+    line-height: 70px;
+    padding: 0 20px;
+    font-size: 14px;
 }
 
 #logo {
+    display: inline-block;
     vertical-align: middle;
+    padding-left: 20px;
+}
+
+.col-dx .btn.btn-blue{
+    color: #fff;
+    padding: 4px 12px;
+}
+
+.col-dx ul, ul li:last-child {
+    padding-right: 0;
+    padding-right: 2px;
 }
