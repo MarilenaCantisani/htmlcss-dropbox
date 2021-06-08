@@ -1,4 +1,4 @@
-/* Reset */
+/*************** Reset ***************/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +10,7 @@ body {
     font-weight: 600;
 }
 
-/* Utility */
+/*************** Utility ***************/
 .large-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -53,6 +53,9 @@ ul li a:hover {
 .w-30 {
     width: 30%;
 }
+.w-33 {
+    width: 33%;
+}
 .w-50 {
     width: 50%;
 }
@@ -79,8 +82,11 @@ ul li a:hover {
     background-color: #b4d0e7;
 }
 
+.far {
+    margin-right: 5px;
+}
 
-/* header */
+/*************** Header ***************/
 /* Header - top-bar */
 .top-bar {
     height: 70px;
@@ -142,3 +148,14 @@ ul li a:hover {
     padding-top: 40px;
 }
 
+/*************** Main ***************/
+/* Main - section: Dropbox Business plan */
+.plans-container .col {
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.plans-container .col .body-col {
+    border: 1px solid grey;
+    padding: 10px 10px;;
+}
