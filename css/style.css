@@ -10,23 +10,32 @@ body {
     font-weight: 600;
 }
 
+img {
+    width: 100%;
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /*************** Utility ***************/
+/* Layout */
 .large-container {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .small-container {
     max-width: 1000px;
     margin: 0 auto;
 }
 
+/* Columns */
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
-
 .col {
     float: left;
 }
@@ -34,22 +43,27 @@ body {
     float: right;
 }
 
+/* List */
 ul li {
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
 }
-
 li a {
     color: black;
 }
-
 ul li a:hover {
     text-decoration: underline;
 }
 
+/* Size */
+.h-70 {
+    height: 70px;
+}
+.w-20 {
+    width: 20%;
+}
 .w-30 {
     width: 30%;
 }
@@ -63,46 +77,104 @@ ul li a:hover {
     width: 70%;
 }
 
-.f-14 {
-    font-size: 14px;
-}
+/* Text size */
 .f-12 {
     font-size: 12px;
 }
+.f-14 {
+    font-size: 14px;
+}
+.f-15 {
+    font-size: 15px;
+}
+.f-35 {
+    font-size: 35px;
+}
+.f-38 {
+    font-size: 38px;
+}
+.f-70 {
+    font-size: 70px;
+}
 
+/* Padding size */
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+.pr-50 {
+    padding-right: 50px;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+.pt-250 {
+    padding-top: 250px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+/* Margin size */
+.mt-30 {
+    margin-top: 30px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+
+
+/* Text alignment */
+.text-center {
+    text-align: center;
+}
 .text-right {
     text-align: right;
 }
 
+/* Button */
 .btn.btn-blue {
     background-color: #0061ff;
+    color: #fff;
+    padding: 6px 40px;
 }
 
+
+/* Background */
 .bg-lightblue {
     background-color: #b4d0e7;
 }
 
-.far {
+/* Icons */
+.far, .fas {
     margin-right: 5px;
+}
+
+.fas.fa-check {
+    color: #0061ff;
 }
 
 /*************** Header ***************/
 /* Header - top-bar */
-.top-bar {
-    height: 70px;
-}
-
 .top-bar ul, .top-bar ul li {
     display: inline-block;
     line-height: 70px;
     padding: 0 20px;
     font-size: 14px;
-}
-
-#logo {
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 20px;
 }
 
 .col-dx .btn.btn-blue{
@@ -111,7 +183,6 @@ ul li a:hover {
 }
 
 .col-dx ul, ul li:last-child {
-    padding-right: 0;
     padding-right: 2px;
 }
 
@@ -120,42 +191,63 @@ ul li a:hover {
     height: calc(100vh - 70px);
 }
 
-.spotlight img {
-    width: 100%;
-    padding-top: 40px;
-}
-.spotlight h1 {
-    padding-top: 50px;
-    font-size: 70px;
-}
-
-.spotlight p {
-    padding-top: 40px;
-}
-
 .spotlight .btn-blue{
     color: #fff;
     padding: 5px 20px;
 }
 
-.spotlight .btn-spotlight {
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.spotlight .fa-arrow-down {
-    font-size: 35px;
-    padding-top: 40px;
-}
-
 /*************** Main ***************/
 /* Main - section: Dropbox Business plan */
-.plans-container .col {
-    padding-right: 50px;
-    padding-top: 30px;
+.col .body-col {
+    height: 800px;
+}
+.info-plan {
+    font-size: 12px;
 }
 
 .plans-container .col .body-col {
-    border: 1px solid grey;
-    padding: 10px 10px;;
+    border: 1px solid lightgray;
+}
+
+.radio-button .fa-circle {
+    color: lightgray;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    /* border:5px solid blue; */
+}
+
+#plans .info-plan h3 {
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+#plans .info-plan .period {
+    color: rgb(110, 109, 109);
+    padding-top: 8px;
+    padding-bottom: 40px;
+}
+
+.info-plan ul li {
+   padding: 10px 0;
+}
+
+.info-plan .btn-plan {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.info-plan .text-buy-option {
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.info-plan hr {
+    border: 0.1px solid rgb(192, 192, 192);
+}
+
+.info-plan h4 {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
