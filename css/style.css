@@ -369,7 +369,7 @@ cite {
     color: black;
 }
 
-.spotlight .spotlight-container .col.w-30 {
+.spotlight .spotlight-container .col.w-30, .spotlight .spotlight-container .col.w-70 {
     position: relative;
 }
 
@@ -380,7 +380,7 @@ cite {
 
 @keyframes bounce {
     from {
-        top: 80%;
+        top: 85%;
         left: 20%;
     }
     to {
@@ -390,6 +390,12 @@ cite {
     }
 }
 
+.img-spotlight {
+    transition: 2s ;
+}
+.img-spotlight:hover {
+    opacity: 0.5;
+}
 /*************** Main ***************/
 /****** Main - section: Dropbox Business plan *****/
 .col .body-col {
@@ -456,6 +462,15 @@ cite {
     line-height: 50px;
 }
 
+/***** Main - section: Partner Dropbox *****/
+.img-partner {
+    transition: 2s;
+}
+.img-partner:hover {
+    border-radius: 50px;
+    filter: grayscale(1);
+}
+
 /***** Main - section: Dropbox's features *****/
 .features-container .col {
     width: calc(100% / 3 - 40px);
@@ -468,6 +483,15 @@ cite {
 .features-container p a:hover {
     text-decoration: underline;
 }
+
+.features img {
+    transition: 1s;
+}
+
+.features img:hover {
+    filter: hue-rotate(100deg);
+}
+
 
 /***** Main - section: Dropbox Business users *****/
 .team-section .btn-team-section {
