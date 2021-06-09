@@ -369,6 +369,27 @@ cite {
     color: black;
 }
 
+.spotlight .spotlight-container .col.w-30 {
+    position: relative;
+}
+
+.arrow-down {
+    position: absolute;
+    animation: bounce 1s linear infinite alternate-reverse;
+}
+
+@keyframes bounce {
+    from {
+        top: 80%;
+        left: 20%;
+    }
+    to {
+        top: 120%;
+        left: 20%;
+
+    }
+}
+
 /*************** Main ***************/
 /****** Main - section: Dropbox Business plan *****/
 .col .body-col {
