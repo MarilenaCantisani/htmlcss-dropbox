@@ -58,6 +58,9 @@ ul li a:hover {
 }
 
 /* Size */
+.h-50 {
+    height: 50px;
+}
 .h-70 {
     height: 70px;
 }
@@ -110,6 +113,9 @@ ul li a:hover {
 .pr-50 {
     padding-right: 50px;
 }
+.pt-15 {
+    padding-top: 15px;
+}
 .pt-30 {
     padding-top: 30px;
 }
@@ -136,8 +142,21 @@ ul li a:hover {
 .mb-10 {
     margin-bottom: 10px;
 }
+.mb-30 {
+    margin-bottom: 30px;
+}
 .mr-20 {
     margin-right: 20px;
+}
+
+/* Size heading */
+h3 {
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+h4 {
+    font-size: 14px;
+    padding: 10px 0;
 }
 
 /* Text alignment */
@@ -193,9 +212,13 @@ ul li a:hover {
     height: calc(100vh - 70px);
 }
 
-.spotlight .btn-blue{
+#btn-spotlight .btn-blue{
     color: #fff;
     padding: 5px 20px;
+}
+
+.spotlight-container .col.w-30 a{
+    color: black;
 }
 
 /*************** Main ***************/
@@ -207,23 +230,26 @@ ul li a:hover {
     font-size: 12px;
 }
 
-.plans-container .col .body-col {
+#plans-container .col .body-col {
     border: 1px solid lightgray;
 }
 
+/* Radio button option */
 .radio-button .option {
     display: inline-block;
     height: 20px;
     width: 20px;
-    border-color: black;
+    border: 1px solid lightgray;
     border-radius: 50%;
     vertical-align: middle;
 }
 
-#plans .info-plan h3 {
-    font-size: 22px;
-    padding-bottom: 15px;
+.radio-button .option.selected-option {
+    border: 5px solid #0061ff;
 }
+
+/* Info plan */
+
 
 #plans .info-plan .period {
     color: rgb(110, 109, 109);
@@ -250,9 +276,7 @@ ul li a:hover {
 }
 
 .info-plan h4 {
-    font-size: 14px;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 30px;   
 }
 
 /* Main - section: Partner Dropbox */
@@ -260,3 +284,8 @@ ul li a:hover {
     margin-top: 40px;
     border: 1px solid lightgray;
 }
+
+.partner .body-col .col h3, .partner .body-col .col-dx .btn {
+    line-height: 50px;
+}
+

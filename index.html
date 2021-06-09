@@ -42,9 +42,9 @@
                 <div class="spotlight-container clearfix">
                     <div class="col w-30">
                         <p class="f-14 pt-40">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business &egrave; più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso del lavoro esistente.</p>
-                        <div class="btn-spotlight mt-30 mb-10"><a class=" btn btn-blue f-14" href="">Inizia la tua prova gratuita</a></div>
+                        <div id="btn-spotlight" class="mt-30 mb-10"><a class=" btn btn-blue f-14" href="">Inizia la tua prova gratuita</a></div>
                         <div class="f-12">Annulla in qualsiasi momento</div>
-                        <a href="#plans"><i class="fas fa-arrow-down f-35 pt-40"></i></a>
+                        <a href="#plans-container"><i class="fas fa-arrow-down f-35 pt-40"></i></a>
                     </div>
                     <div class="col w-70">
                         <img class="pt-40" src="./img/jumbo.png" alt="spotlight">
@@ -67,7 +67,9 @@
                     <span>Fatturazione annuale</span>
                 </div>
             </header>
-            <main class="plans-container clearfix">
+            <!-- Plans-container -->
+            <main id="plans-container" class="clearfix">
+                <!-- Left column -->
                 <div class="col w-33 pt-30">
                     <div class="body-col">
                         <header class="text-center p-10 f-15">
@@ -97,6 +99,7 @@
                         </section>
                     </div>
                 </div>
+                <!-- Central column -->
                 <div class="col w-33 pt-30 m-30">
                     <div class="body-col ">
                         <header class="text-center p-10 f-15">
@@ -127,6 +130,7 @@
                         </section>
                     </div>
                 </div>
+                <!-- Right column -->
                 <div class="col w-33 pt-30">
                     <div class="body-col">
                         <header class="text-center p-10 f-15">
@@ -161,16 +165,19 @@
         </section>
 
         <!-- Main - section: Partner Dropbox -->
-        <section class="partner small-container">
-            <header>
+        <section class="partner small-container mb-30">
+            <header class="text-center p-10 f-15">
                 <i class="far fa-building"></i>Team</i>
             </header>
-            <section>
-                <h3>Enterprise</h3>
-                <a href="">Contatta l'ufficio vendite</a>
-                <h4>Contatta l'ufficio vendite per i prezzi</h4>
-                <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
-            </section>
+            <hr>
+            <div class="body-col p-20">
+                <div class="h-50 row-enterprise clearfix">
+                    <div class="col"><h3>Enterprise</h3></div>
+                    <div class="col-dx"><a class="btn btn-blue" href="">Contatta l'ufficio vendite</a></div>
+                </div>  
+                <h4 class="pt-15">Contatta l'ufficio vendite per i prezzi</h4>
+                <p class="f-12">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+            </div>
         </section>
 
         <!-- Main - section: Dropbox's features -->
