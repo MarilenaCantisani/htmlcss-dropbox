@@ -73,8 +73,14 @@ ul li a:hover {
 .w-33 {
     width: calc(100% / 3 - 20px);
 }
+.w-40 {
+    width: 40%;
+}
 .w-50 {
     width: 50%;
+}
+.w-60 {
+    width: 60%;
 }
 .w-70 {
     width: 70%;
@@ -139,6 +145,9 @@ ul li a:hover {
 .mt-30 {
     margin-top: 30px;
 }
+.mt-150 {
+    margin-top: 150px;
+}
 .mb-10 {
     margin-bottom: 10px;
 }
@@ -149,7 +158,7 @@ ul li a:hover {
     margin-right: 20px;
 }
 
-/* Size heading */
+/* Size heading - p*/
 h3 {
     font-size: 22px;
     padding-bottom: 15px;
@@ -158,7 +167,9 @@ h4 {
     font-size: 14px;
     padding: 10px 0;
 }
-
+p {
+    font-size: 14px;
+}
 /* Text alignment */
 .text-center {
     text-align: center;
@@ -172,6 +183,12 @@ h4 {
     background-color: #0061ff;
     color: #fff;
     padding: 6px 40px;
+}
+
+.btn.btn-white {
+    border: 1px solid black;
+    color: black;
+    padding: 6px 15px;
 }
 
 
@@ -222,7 +239,7 @@ h4 {
 }
 
 /*************** Main ***************/
-/* Main - section: Dropbox Business plan */
+/****** Main - section: Dropbox Business plan *****/
 .col .body-col {
     height: 800px;
 }
@@ -230,7 +247,7 @@ h4 {
     font-size: 12px;
 }
 
-#plans-container .col .body-col {
+.plans-container .col .body-col {
     border: 1px solid lightgray;
 }
 
@@ -249,8 +266,6 @@ h4 {
 }
 
 /* Info plan */
-
-
 #plans .info-plan .period {
     color: rgb(110, 109, 109);
     padding-top: 8px;
@@ -279,13 +294,14 @@ h4 {
     padding-top: 30px;   
 }
 
-/* Main - section: Partner Dropbox */
-.partner {
+/* Main - section: sales-section */
+.sales-section {
     margin-top: 40px;
     border: 1px solid lightgray;
 }
 
-.partner .body-col .col h3, .partner .body-col .col-dx .btn {
+.sales-section .body-col .col h3, .sales-section .body-col .col-dx .btn {
     line-height: 50px;
 }
+
 
