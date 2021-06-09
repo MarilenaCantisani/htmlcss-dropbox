@@ -86,6 +86,9 @@ ul li a:hover {
 .h-70 {
     height: 70px;
 }
+.h-80 {
+    height: 80px;
+}
 /* Width */
 .w-a {
     width: auto;
@@ -148,6 +151,9 @@ ul li a:hover {
 .pl-40 {
     padding-left: 40px;
 }
+.pr-30 {
+    padding-right: 30px;
+}
 .pr-40 {
     padding-right: 40px;
 }
@@ -203,6 +209,9 @@ ul li a:hover {
 }
 .mb-30 {
     margin-bottom: 30px;
+}
+.mb-100 {
+    margin-bottom: 100px;
 }
 .mr-20 {
     margin-right: 20px;
@@ -453,3 +462,15 @@ cite {
     transform: translateY(-55%);
     border: none;
 }
+
+/***** Main - section: frequent questions *****/
+.frequent-questions h3 {
+    font-size: 28px;
+}
+.frequent-questions .question {
+    line-height: 80px;
+}
+.frequent-questions .question h4 {
+    padding: 0;
+}
+
