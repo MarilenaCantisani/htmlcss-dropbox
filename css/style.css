@@ -440,9 +440,16 @@ cite {
     position: relative;
 }
 
-.banner-team-section .small-container h2, .banner-team-section .small-container .btn {
+.banner-team-section .small-container h2{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    color: #61082b;
 }
-
+.banner-team-section .small-container .btn {
+    position: absolute;
+    top: 45%;
+    right: 20%;
+    transform: translateY(-55%);
+    border: none;
+}
