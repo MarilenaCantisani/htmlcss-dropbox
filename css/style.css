@@ -142,8 +142,17 @@ ul li a:hover {
 .m-30 {
     margin: 0 30px;
 }
+.m-60 {
+    margin: 0 60px;
+}
 .mt-30 {
     margin-top: 30px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-60 {
+    margin-top: 60px;
 }
 .mt-150 {
     margin-top: 150px;
@@ -159,6 +168,9 @@ ul li a:hover {
 }
 
 /* Size heading - p*/
+h2 {
+    font-size: 35px;
+}
 h3 {
     font-size: 22px;
     padding-bottom: 15px;
@@ -295,13 +307,25 @@ p {
 }
 
 /* Main - section: sales-section */
-.sales-section {
+.sales-office-section {
     margin-top: 40px;
     border: 1px solid lightgray;
 }
 
-.sales-section .body-col .col h3, .sales-section .body-col .col-dx .btn {
+.sales-office-section .body-col .col h3, .sales-office-section .body-col .col-dx .btn {
     line-height: 50px;
 }
 
+/***** Main - section: Dropbox's features *****/
+.features-container .col {
+    width: calc(100% / 3 - 40px);
+    padding-bottom: 80px;
+}
+
+.features-container p a {
+    color: black;
+}
+.features-container p a:hover {
+    text-decoration: underline;
+}
 
