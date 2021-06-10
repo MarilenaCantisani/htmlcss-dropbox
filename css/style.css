@@ -258,14 +258,26 @@ p {
     color: #fff;
     padding: 6px 40px;
 }
+
+ a:hover.btn.btn-blue {
+    background-color: rgba(0, 97, 255, 0.8);
+}
+
 .btn.btn-white {
     border: 1px solid black;
     color: black;
     background-color: white;
 }
+
+a:hover.btn.btn-white {
+    background-color: black;
+    color: #fff;
+} 
+
 .btn.btn-white.btn-small {
     padding: 6px 15px;
 }
+
 .btn.btn-white.btn-large {
     padding: 6px 40px;
 }
@@ -391,7 +403,7 @@ cite {
 }
 
 .img-spotlight {
-    transition: 2s ;
+    transition: 2s;
 }
 .img-spotlight:hover {
     opacity: 0.5;
@@ -522,6 +534,10 @@ cite {
     border: 6px solid rgba(255, 255, 255, 0.5);
 }
 
+.users-box .central-col {
+    overflow: scroll;
+}
+
 .banner-team-section {
     height: 300px;
     position: relative;
@@ -541,6 +557,11 @@ cite {
     border: none;
 }
 
+.banner-team-section a:hover.btn.btn-white {
+    background-color: #61082b;
+    color: #fff;
+}
+
 /***** Main - section: frequent questions *****/
 .frequent-questions h3 {
     font-size: 28px;
@@ -550,6 +571,15 @@ cite {
 }
 .frequent-questions .question h4 {
     padding: 0;
+}
+.answer a {
+    color: #0061ff;
+}
+.question-container .answer {
+    display: none;
+}
+.question-container:hover .answer {
+    display: block;
 }
 
 /*************** Footer ***************/
